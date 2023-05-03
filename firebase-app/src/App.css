@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    text-align: center;
+    height: 100vh;
+
+}
+.Listofmovie{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    padding: 2rem 0px ;
+    flex-wrap: wrap;
+}
+
+.input-container .input-app{
+    font-weight: bolder;
+    margin: 0 10px;
+    width: 150px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.container-div{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.container input{
+    font-weight: bolder;
+    margin: 1rem 0;
+    width: 400px;
+    padding: 12px;
+    border: none;
+    box-shadow: 1px 2px 6px rgba(128, 128, 128, 0.63);
+}
+.container input:focus{
+    border: none;
+    outline: none;
+}
+.container input::placeholder{
+    font-weight: bold;
+    color: rgba(128, 128, 128, 0.486);
+}
+
+.button{
+    display: flex;
+}
+button{
+    border-radius: 7px;
+    width: 150px;
+    margin: 15px 5px;
+    cursor: pointer;
+    padding: 12px;
+    font-weight: bold;
+    background: transparent;
+    border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+button:hover{
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    background: #2A2F4F;
+    color: #FDE2F3;
+    transition: ease-in-out .3s;
+}
+.uploadFile{
+    border-top: 2px solid gray;
+    padding: 2rem 0px ;
+}
